@@ -1,11 +1,12 @@
-# Grain globber
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, 1 JS file, images**
-
+---
+summary: 'With an already made array of grains, create a layout in the HTML with jQuery & CSS.'
+time: '1 hour'
+deliverables: '1 HTML file, 1 CSS file, 1 JS file, images'
 ---
 
-**With an already made array of grains, create a layout in the HTML with jQuery & CSS.**
+# Grain globber
+
+## Overview
 
 - *Fork this repository.*
 - The information is inside an array of objects in the `grains.js` file.
@@ -22,10 +23,10 @@
 
 Visually match the images in the “screenshots” folder.
 
-- [Final screenshots in the “screenshots” folder.](screenshots)
+- Final screenshots in the “screenshots” folder.
 
 ---
 
 ## Hand in
 
-Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
+Drop this folder into your Markbot application. Make sure to fix all the errors. And submit online.

@@ -1,20 +1,25 @@
-repo: "grain-globber"
-canvasCourse: "467503"
-canvasAssignment: "4361024"
+repo: 'grain-globber'
 
 naming: true
-commits: 2
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
-  - path: "index.html"
+  - path: 'index.html'
     locked: true
 
 css:
-  - path: "css/main.css"
+  - path: 'css/main.css'
     valid: true
     bestPractices: true
     has:
       - ['html', 'box-sizing', 'border-box']
+      - ['*', 'box-sizing', 'inherit']
       - ['.grains']
       - ['.grains img', 'float', 'left']
       - ['.grains li']
@@ -22,10 +27,10 @@ css:
       - ['.grains p']
 
 js:
-  - path: "js/grains.js"
+  - path: 'js/grains.js'
     locked: true
 
-  - path: "js/main.js"
+  - path: 'js/main.js'
     valid: true
     bestPractices: true
     search:
@@ -40,5 +45,5 @@ js:
       - 'prompt\('
 
 screenshots:
-  - path: "index.html"
+  - path: 'index.html'
     sizes: [320]
