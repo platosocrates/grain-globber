@@ -15,17 +15,23 @@ html {
 }
 
 .grains li {
-
+  height: 76px;
+  display: block;
+  width: 300px;
+  margin-bottom: 30px;
 }
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
-
+  margin: 0;
 }
 
 .grains p {
-
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
 }
